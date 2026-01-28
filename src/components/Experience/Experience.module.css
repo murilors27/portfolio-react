@@ -1,0 +1,61 @@
+.ExperienceSection {
+  background-color: var(--color-dark);
+  max-width: fit-content;
+  color: var(--color-text);
+  font-family: "Outfit", sans-serif;
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+
+.Title {
+  text-transform: uppercase;
+}
+
+.ExperienceContent {
+  display: grid;
+  grid-template-columns: 20rem 20rem;
+  gap: 3rem;
+}
+
+.ListSkills {
+  display: grid;
+  flex-wrap: wrap;
+}
+
+.SkillsItem {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.SkillsIcon {
+  background-color: var(--color-primary);
+  border-radius: 100%;
+}
+
+.ExperiencesTitle {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.ExperiencesItem {
+  list-style: none;
+  
+}
+
+.ExperiencesTopics {
+    list-style: inside;
+}
+
+.ExperiencesPeriod {
+    font-weight: 200;
+}
+
+.ExperiencesIcon {
+    width: 3rem;
+    background-color: var(--color-primary);
+    border-radius: 1rem;
+}

@@ -1,0 +1,48 @@
+.AboutSection {
+    background-color: #0C0C0C99;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 20rem 20rem;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    padding: 3rem;
+    margin: 3rem;
+    color: var(--color-text);
+    font-family: "Outfit", sans-serif;
+    max-width: 90%;
+    
+}
+
+.IlustrativeSection {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.Title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.List {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.Item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ItemTitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.ItemDescription {
+    font-weight: 300;
+}

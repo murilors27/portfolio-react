@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: var(--color-bg);
+}
+
+:root {
+    --color-text: #fff;
+    --color-primary: #576cbc;
+    --color-secondary:#19376d;
+    --color-dark: #0b2447;
+    --color-bg: #04152d;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
