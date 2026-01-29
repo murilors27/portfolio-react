@@ -36,6 +36,10 @@
     max-width: 50%;
 }
 
+.Button:hover {
+    background: linear-gradient(to bottom left, var(--color-primary), rgb(169, 219, 239));
+}
+
 .ProfileImg {
     border-radius: 100%;
 }

@@ -2,9 +2,14 @@
   color: var(--color-text);
   font-family: "Outfit", sans-serif;
   font-size: 1.5rem;
-  margin: 2rem;
+  margin: 5rem;
 }
 
 .Title {
   text-transform: uppercase;
+}
+
+.CardList {
+  display: flex;
+  justify-content: space-evenly;
 }

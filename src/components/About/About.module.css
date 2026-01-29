@@ -1,5 +1,5 @@
 .AboutSection {
-    background-color: #0C0C0C99;
+    background-color: var(--color-bg);
     border-radius: 1rem;
     display: grid;
     grid-template-columns: 20rem 20rem;
@@ -33,9 +33,9 @@
 }
 
 .Item {
-    display: flex;
-    flex-direction: column;
-
+    background: linear-gradient(to right, var(--color-secondary), var(--color-bg));
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .ItemTitle {

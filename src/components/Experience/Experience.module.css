@@ -1,5 +1,5 @@
 .ExperienceSection {
-  background-color: var(--color-dark);
+  background: linear-gradient(to bottom right, var(--color-bg), var(--color-secondary));
   max-width: 100%;
   color: var(--color-text);
   font-family: "Outfit", sans-serif;
@@ -36,7 +36,7 @@
 }
 
 .SkillsIcon {
-  background-color: var(--color-primary);
+  background: linear-gradient(to left, var(--color-primary), var(--color-secondary));
   border-radius: 100%;
   width: 5rem;
 }

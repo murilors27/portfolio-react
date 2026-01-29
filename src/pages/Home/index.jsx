@@ -1,5 +1,6 @@
 import About from "../../components/About";
 import Experience from "../../components/Experience";
+import Footer from "../../components/Footer";
 import Introduction from "../../components/Introduction";
 import Navbar from "../../components/Navbar";
 import Projects from "../../components/Projects";
@@ -26,6 +27,8 @@ function Home() {
 
         <Projects title={"Projects"}/>
       </div>
+
+      <Footer />
     </body>
   );
 }
