@@ -1,0 +1,10 @@
+.Projects {
+  color: var(--color-text);
+  font-family: "Outfit", sans-serif;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.Title {
+  text-transform: uppercase;
+}

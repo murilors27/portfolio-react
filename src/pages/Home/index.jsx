@@ -2,6 +2,7 @@ import About from "../../components/About";
 import Experience from "../../components/Experience";
 import Introduction from "../../components/Introduction";
 import Navbar from "../../components/Navbar";
+import Projects from "../../components/Projects";
 import styles from "./Home.module.css";
 
 function Home() {
@@ -22,6 +23,8 @@ function Home() {
         <About title={"About"} />
 
         <Experience title={"Experience"} />
+
+        <Projects title={"Projects"}/>
       </div>
     </body>
   );

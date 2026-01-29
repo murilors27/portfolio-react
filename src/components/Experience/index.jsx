@@ -50,8 +50,8 @@ function Experience({ title }) {
     <div className={styles.ExperienceSection}>
       <h3 className={styles.Title}>{title}</h3>
       <div className={styles.ExperienceContent}>
-        <div className={styles.ListSkills}>
-          <ul>
+        <div>
+          <ul className={styles.ListSkills}>
             {skills.map(function (skill) {
               return (
                 <li key={skill.id} className={styles.SkillsItem}>
@@ -67,8 +67,8 @@ function Experience({ title }) {
           </ul>
         </div>
 
-        <div className={styles.ListExperiences}>
-          <ul>
+        <div>
+          <ul className={styles.ListExperiences}>
             {experiences.map(function (experience) {
               return (
                 <li key={experience.id} className={styles.ExperiencesItem}>
